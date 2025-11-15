@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main(
+int a, b, special_attacks;
+scanf("%d%d",&a, &b);
+special_attacks=b/a;
+printf("%d", special_attacks);
+return 0;
+}
