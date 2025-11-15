@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+.{
+int x,y;
+double loss_percentage;
+scanf("%d%d", &x, &y) ;
+loss_percentage=(x-y)*100.0/x;
+printf("%.21f", loss_percentage);
+return 0;
+}
